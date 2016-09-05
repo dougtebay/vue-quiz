@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "name": "Titanic",
+      "release_date": "19 December 1997",
+      "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "actors": [
+        "Leonardo DiCaprio",
+        "Kate Winslet"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Independence Day",
+      "release_date": "3 July 1996",
+      "synopsis": "The aliens are coming and their goal is to invade and destroy Earth. Fighting superior technology, mankind's best weapon is the will to survive.",
+      "actors": [
+        "Will Smith",
+        "Bill Pullman"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Broke Back Mountain",
+      "release_date": "July 6, 2006",
+      "synopsis": "The story of a forbidden and secretive relationship between two cowboys, and their lives over the years.",
+      "actors": [
+        "Heath Ledger",
+        "Jake Gyllenhaal"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tomorrow Never Dies",
+      "release_date": "19 December 1995",
+      "synopsis": "James Bond heads to stop a media mogul's plan to induce war between China and the UK in order to obtain exclusive global media coverage.",
+      "actors": [
+        "Pierce Brosnan",
+        "Jonathan Pryce"
+      ]
+    },
+    {
+      "id": 5,
+      "name": " A Nightmare on Elm Street ",
+      "release_date": " 30 April 2010",
+      "synopsis": "The spectre of a dead child rapist haunts the children of the parents who murdered him, stalking and killing them in their dreams.",
+      "actors": [
+        "Jackie Earle Haley",
+        "Kyle Gallner"
+      ]
+    }
+  ]
+}
