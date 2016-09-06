@@ -12,6 +12,11 @@
                 {{ actor }}
               </li>
             </ul>
+            <button
+              v-on:click="toggleLiked()"
+              class="btn btn-danger">
+              {{ config.like_button_text }}
+            </button>
           </div>
         </div>
         <button
@@ -44,6 +49,7 @@
         config: {
           previous_button_text: 'Previous',
           next_button_text: 'Next',
+          like_button_text: 'Like',
           previous_button_current: false,
           next_button_current: false
         }
@@ -77,6 +83,24 @@
           this.config.next_button_current = true
           this.config.previous_button_current = false
         }
+      },
+
+      toggleLiked() {
+        if(this.movies[this.current_movie_index].hasOwnProperty('liked')) {
+          this.movies[this.current_movie_index].liked = !this.movies[this.current_movie_index].liked
+        } else {
+          this.movies[this.current_movie_index].liked = true
+        }
+      },
+
+      liked() { // Not used
+        return this.movies[this.current_movie_index] &&
+        this.movies[this.current_movie_index].hasOwnProperty('liked') &&
+        this.movies[this.current_movie_index].liked
+      },
+
+      setLikeButtonText() { // Not used
+        this.liked() ? this.config.like_button_text = 'Unlike' : this.config.like_button_text = 'Like'
       }
     },
     created() {
